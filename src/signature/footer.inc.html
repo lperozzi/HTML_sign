@@ -13,7 +13,7 @@
       <tr>
       <td class="footer__main__signature" align="left">
         <strong><!-- @echo name --></strong> | <!-- @echo title --><br />
-        <a style="font-size:12px;font-weight:400" href="mailto:<!-- @echo contactMail -->" target="_blank"><span><!-- @echo contactMail --></span></a> 
+        <a style="font-size:12px;font-weight:400" href="mailto:<!-- @echo contactMail -->" target="_blank"><span><!-- @echo contactMail --></span></a>
       </td>
     </tr>
     <!-- <tr>
@@ -26,6 +26,16 @@
         <td class="footer__main__col1__td" align="left">
           <br />
               <!-- @echo linkedin --> &nbsp;&nbsp; <!-- @echo github  --> &nbsp;&nbsp; <!-- @echo twitter -->
+        </td>
+      </table>
+
+      <table class="rbcc footer__main__col2" width="30%" align="right">
+        <!-- @todo gulp-inline-css doesn't parse align -->
+        <td class="footer__main__col2__td" align="right">
+          <br />
+          <a href="<!-- @echo website -->">
+            <img src="<!-- @echo logoUrl -->" alt="<!-- @echo logoAlt -->" class="footer__main__col2__td__img"/>
+          </a>
         </td>
       </table>
     </tr>
